@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+  }
+main{
+    max-width: 800px;
+    height: 900px;
+    }
+  body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:    20px solid rgba(105, 105, 105, 0.856);
+    background-color: black;
+
+}
+
+#txt{
+    display:block;
+    color:white;
+    font-family: fantasy;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 90px auto auto auto;
+    text-shadow: rgba(255, 255, 255, 0.644) 3px 3px;
+
+}
+  .tabuleiro {
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+  img{
+      display:inline-flex;
+      margin: auto;
+      margin-top: 30px;
+      margin-left: 30px;
+      width: 180px;
+      height: 180px;
+      padding: 5px;
+
+
+  }
+

@@ -1,0 +1,665 @@
+html {
+    font-size: 62.5%; /* cada 1rem considerará 10px*/
+}
+body {
+    background-image: url("https://www.unicamp.br/unicamp/sites/default/files/inline-images/Matem%C3%A1tica2.jpeg");
+    margin:0 auto;
+    margin-top:-16.5px ;
+    width: 100%;
+    height: 100%;
+    font-size: 1.6rem;
+}
+.backgroundtotal{
+    background-color: rgba(0, 0, 0, 0.856);
+}
+/** Aqui está o fundo ^^   */
+/** ______________________________ */
+/** Menu Principal à BAIXO */
+.menu-principal {
+    width: 100%;
+    background-color: rgba(105, 105, 105, 0.856);
+    height: 143px;
+    border-bottom:5px solid rgba(0, 0, 0, 0.575);
+    margin-bottom: -32px;
+}
+main {
+    margin: 0 auto;
+    width: 1100px;
+    position: relative;    
+}
+.logo img{
+    width: 230px;
+}
+.logo{
+    float:left;
+    padding-left: 20px;
+    padding-top: 18px;
+    width: 79%;
+}
+#SetaDeVoltar{
+    position: relative;
+    float: left;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+/** Finalzia Menu Principal */
+/** ______________________________ */
+/** Redes sociais à BAIXO */
+.redes_sociais ul li{
+    padding-top: 5px;
+    margin: left 50px;
+    margin-right: 15px;
+    width: 6%;
+    display: inline block;
+    float: right;
+    list-style:none;
+} 
+.redes_sociais img{
+    width: 100%;
+    float:right;
+}
+/** Finaliza Redes Sociais */
+/** ______________________________ */
+/** Tabela de Atualizações a BAIXO*/
+ .TableAtualizacoes{
+    position: absolute;
+    border-radius: 10px;
+    padding: 15px;
+    background: rgba(105, 105, 105, 0.856);
+    color: #DCDCDC;
+    font-size: 1em;
+    font-family: sans-serif;
+    width:350px;
+    text-align:center;
+    margin-top: 57px;
+    margin-left: 1550px;
+}
+.UppercaseTitlte th{
+    font-size: 1.125em;
+    text-transform: uppercase;
+    color:cyan;
+    text-align: center;
+}
+/** Finaliza Atualizações*/
+/** ______________________________ */
+/** FUNDO PRINCIPAL */
+#FundoSobre{
+    width: 100%;
+    background-color:rgba(105, 105, 105, 0.856);;
+    height: 1600px;
+    padding: 15px;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 36px;    
+}
+/** Finaliza FUNDO PRINCIPAL */
+/** ______________________________ */
+/** Texto e titulo a ser colocado */
+#DeixarBonito{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding:3px;
+}
+.titulo{
+    color:cyan;
+    text-align: justify;
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-size: 1.75em;
+}
+.texto{
+    color:aquamarine;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 1.125em;
+}
+#textoUnico{
+    width: 100%;
+    color:rgb(255, 255, 255);
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 1.125em;
+    text-transform: uppercase;
+    font-family: bold;
+    padding: 0px;
+}
+#HeaderTextoUnico{
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 600px;
+    padding-right:20px;
+    border-radius: 5px;
+    position: relative;
+    margin: auto;
+    margin-top:-60px;
+}
+.Nome{
+    color:cyan;
+    text-align: justify;
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-size: 1.5em;   
+}
+#Felipe{
+    width:250px;
+    height: 250px;
+    position: relative;
+    float:left;
+    margin-top: 250px;
+    text-align: justify;
+    margin-left: 27px;
+}
+#Diego{
+    position:relative;
+    height: 250px;
+    width: 250px;
+    text-align: justify; 
+    margin-top:266px;
+    margin-left: 425px;
+}
+#Rogerio{
+    height: 250px;
+    width: 250px;
+    text-align: justify;
+    position: relative;
+    float:right;
+    margin-top:-250px;
+    margin-right:60px;
+}
+#imagemFelipe img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    margin-top: -250px;
+}
+#imagemDiego img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    margin-top: -250px;
+}
+#imagemRogerio img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    margin-top: -250px;
+}
+/** Finaliza    Texto e titulo a ser colocado */
+/** ______________________________ */
+/** Página explicativa do youtube */
+#youtube{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    Color:red;
+    background-color: #DCDCDC;
+    height: 500px;
+    width: 800px;
+    padding: 5px ;
+    border-radius: 5px;
+}
+#youtube img{
+    width: 100%;
+    height: 100%;
+}
+/** Finaliza Página explicativa do youtube */
+/** ______________________________ */
+/** Rodape à BAIXO*/
+.HeaderDeBaixo{
+    width: 100%;
+    height: 143px;
+    background-color: rgba(105, 105, 105, 0.856);
+    border-top:5px solid rgba(0, 0, 0, 0.575);
+    margin-top: 1673px;
+    border-bottom:5px solid rgba(0, 0, 0, 0.575);
+}
+/** Finaliza Rodape */
+/** ______________________________ */
+/** Sobre à BAIXO*/
+#Sobre{
+    color: #DCDCDC;
+    text-decoration: none;
+    text-align: left;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    font-family: fantasy;
+    position:absolute;
+    margin-left:201px;
+    margin-top: 53.5px;
+    display:none;
+}
+#Sobre:hover {
+    color: black;
+    border-bottom: 3px solid black;
+}
+#IFPR{
+    height: 134px;
+    float:right;
+    margin: 5px;
+    margin-right: 10px;
+}
+#IFPR:hover{
+    background-color: black;
+}
+#Develpoed{
+    color: #DCDCDC;
+    text-align: center;
+    font-size: 1.2rem;
+    display:flow-root;
+    margin-top: 95px;
+    margin-left: auto;
+}
+#Frame{
+    width:800px;
+    height:500px; 
+}
+/** Finaliza Sobre */
+/** ______________________________ */
+/** Responsive */
+@media screen and (min-width: 320px){
+    main {
+        width:210px;  
+    }
+    body{
+        width: 100%;
+    }
+    html {
+        font-size: 0.35em;
+    }
+    .logo img{
+        margin-top:10px;
+        width: 130px;
+    }
+    .logo{
+        margin-top: -100px;
+        margin-left: -35px;
+    }
+    .redes_sociais img{
+        width: 100%;
+        margin-right: -40px;
+    }
+    .redes_sociais ul li{
+        margin-right:-3px;
+        margin-top: -40px;
+    } 
+    .redes_sociais{
+        margin-left: -500px;
+    }
+    .HeaderDeBaixo{
+        margin-top: 1370px;
+        height: 105px;
+    }
+    #IFPR{
+        margin-top:-100px;
+        width: auto;
+        height: 100px;
+        float:right;
+    }
+    #HeaderTextoUnico{
+        background-color: rgba(0, 0, 0, 0.507);
+        width: auto;
+        padding-right:0px;
+        border-radius: 5px;
+        position: relative;
+        margin: auto;
+        margin-top:10px;
+        padding:5px;
+    }
+    #textoUnico{
+        width: 100%;
+        color:rgb(255, 255, 255);
+        text-align: justify;
+        font-family: sans-serif;
+        font-size: 1.125em;
+        text-transform: uppercase;
+        font-family: bold;
+    }
+    #Felipe{
+        display:inline-block;
+        width:150px;
+        height: 150px;
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+    #Diego{
+        display:inline-block;
+        height: 150px;
+        width: 150px;
+        margin-top: 90px;
+        margin-bottom: 0px;
+        margin-left: 50px;
+    }
+    #Rogerio{
+        display:inline-block;
+        height: 150px;
+        width: 150px;
+        margin-top:90px;
+        margin-left: 50px;
+    }
+    #imagemFelipe img{
+        width: 150px;
+        height: 150px;
+        margin-top: -150px;
+    }
+    #imagemDiego img{
+        width: 150px;
+        height: 150px;
+        margin-top: -150px;
+    }
+    #imagemRogerio img{
+        width: 150px;
+        height: 150px;
+        margin-top: -150px;
+    }
+    #youtube{
+        height: 10%;
+        width: auto;
+        display:none;
+    }
+    #Frame{
+        display:none;
+        width:auto;
+        height:10%; 
+    }
+    #FundoSobre{
+        width: auto;
+        background-color:rgba(105, 105, 105, 0.856);;
+        height: auto;
+    }
+    .TableAtualizacoes{
+        display:none;
+    }
+    #SetaDeVoltar{
+        position: relative;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 80px;
+    }
+    #SetaDeVoltar img{
+        width: 10%;
+    }
+    .menu-principal {
+        height: 105px;
+    }
+    #DeixarBonito{
+        width: auto;
+        margin:auto;
+    }
+    header#FundoSobre{
+        margin-left: -40px;
+        height: 1250px;
+    }
+}
+@media screen and (min-width: 360px) {
+    main {
+        width:280px;  
+    }
+    html {
+        font-size: 0.4em;
+    }
+    #HeaderTextoUnico{
+        width: auto;
+        margin: auto;
+    }
+    header#FundoSobre{
+        margin-left: -10px;
+    }
+    .logo{
+        margin-left:-10px;
+    }
+    .logo img{
+        width: 140px;
+    }
+    .redes_sociais img{
+        margin-right: -20px;
+    }
+    .redes_sociais ul li{
+        margin-top: -45px;
+    }
+    .HeaderDeBaixo{
+        margin-top: 1495px;
+        height: 105px;
+    }
+    .menu-principal {
+        height: 105px;
+    }
+    #Felipe{
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+    #Diego{
+        margin-top: 130px;
+        margin-left: 50px;
+    }
+    #Rogerio{
+        margin-top:100px;
+        margin-right:70px;
+    }
+    header#FundoSobre{
+        margin-left: -10px;
+        height: 1420px;
+    }
+}
+/** SMALL DEVICES – SMARTPHONES */
+@media (min-width: 480px) {
+    main {
+        width:390px;  
+    }
+    html {
+        font-size: 0.5em;
+    }
+    .HeaderDeBaixo{
+        margin-top: 1775px;
+        height: 120px;
+    }
+    .menu-principal {
+        height: 120px;
+    }
+    .logo img{
+        width: 190px;
+        margin-top: -10px;
+    }
+    #Felipe{
+        margin-top: 150px;
+        margin-left: 110px;
+    }
+    #Diego{
+        margin-top: 490px;
+        margin-bottom: 0px;
+        margin-left: 110px;
+    }
+    #Rogerio{
+        margin-top:-465px;
+        margin-right: 105px;
+    }
+    .redes_sociais img{
+        margin-right: 10px;
+    }
+    .redes_sociais ul li{
+        margin-top: -53px;
+    }
+    #HeaderTextoUnico{
+        width: auto;
+        margin: auto;
+    }
+    header#FundoSobre{
+        height: 1700px;
+    }
+}
+/** SMALL DEVICES – TABLETS */
+
+@media (min-width: 768px) {
+    main {
+        width:590px;  
+    }
+    html {
+        font-size: 0.7em;
+    } 
+    .HeaderDeBaixo{
+        margin-top: 1575px;
+        height: 140px;
+    }
+    .menu-principal {
+        height: 140px;
+    }
+    .logo img{
+        width: 210px;
+    }
+    .redes_sociais img{
+        width: 100%;
+        margin-right: -40px;
+    }
+    .redes_sociais ul li{
+        margin-right:5px;
+        margin-top: -60px;
+    } 
+    .redes_sociais{
+        margin-right: 50px;
+    }
+    #HeaderTextoUnico{
+        width: auto;
+        margin: auto;
+    }
+    #IFPR{
+        height: 125px;
+    }
+    #Felipe{
+        margin-top: 150px;
+        margin-left: 10px;
+    }
+    #Diego{
+        margin-top: 150px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    #Rogerio{
+        margin-top:-280px;
+        margin-right: 10px;
+    }
+    #DeixarBonito{
+        height: 1400px;
+    }
+    header#FundoSobre{
+        height: 1455px;
+    }
+    header.menu-principal {
+        margin-top: -20px;
+    }
+}
+/** MEDIUM DEVICES – TABLETS & DESKTOPS */
+@media (min-width: 960px) {
+    main {
+        width:750px;  
+    }
+    html {
+        font-size: 0.7em;
+    } 
+    .HeaderDeBaixo{
+        margin-top: 1450px;
+        height: 145px;
+    }
+    .menu-principal {
+        height: 145px;
+    }
+    .logo img{
+        width: 220px;
+        margin-top: -25px;
+    }
+    #Felipe{
+        margin-left: 20px;
+    }
+    #Diego{
+        margin-left: 125px;
+    }
+    #Rogerio{
+        margin-right: 20px;
+    }
+    #DeixarBonito{
+        height: 1275px;
+    }
+    header#FundoSobre{
+        height: 1330px;
+    }
+}
+/** LARGE DEVICES- WIDE SCREENS */
+@media (min-width: 1024px) {
+    main {
+        width:850px;  
+    }
+    html {
+        font-size: 0.6em;
+    } 
+    .HeaderDeBaixo{
+        margin-top: 1195px;
+    }
+    .logo{
+        margin-top: -80px;
+    }
+    .redes_sociais{
+        margin-right: 100px;
+    }
+    .redes_sociais ul li{
+        margin-top: -75px;
+    }
+    #Felipe{
+        margin-left: 30px;
+    }
+    #Diego{
+        margin-left: 166px;
+    }
+    #Rogerio{
+        margin-right: 30px;
+        margin-top: -227px;
+    }
+    #DeixarBonito{
+        height: 1020px;
+    }
+    header#FundoSobre{
+        height: 1075px;
+    }
+    #SetaDeVoltar{
+        width: 50%;
+    }
+}
+
+/** My PC */
+
+@media (min-width: 1920px) {
+    main {
+        width:1100px;  
+    }
+    html {
+        font-size: 0.7em;
+    } 
+    .HeaderDeBaixo{
+        margin-top: 1345px;
+    }
+    .logo{
+        margin-top: -100px;
+    }
+    .redes_sociais{
+        margin-right: 100px;
+    }
+    .redes_sociais ul li{
+        margin-top: -75px;
+    }
+    #Felipe{
+        margin-left: 50px;
+    }
+    #Diego{
+        margin-left: 269px;
+    }
+    #Rogerio{
+        margin-right: 50px;
+        margin-top: -280px;
+    }
+    #DeixarBonito{
+        height: 1170px;
+    }
+    header#FundoSobre{
+        height: 1225px;
+    }
+    #SetaDeVoltar{
+        width: 50%;
+    }
+}
