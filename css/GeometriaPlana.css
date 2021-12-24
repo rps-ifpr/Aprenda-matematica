@@ -534,7 +534,7 @@ main {
         height: 70px;
     }
 }
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 375px) {
     main {
         width:280px;  
     }
@@ -1050,13 +1050,14 @@ main {
     .ConteudoEquacao1{
         width: 48%;
         height: 285px;
-        margin-right: auto;
+        margin-right:1.7%;
+        margin-top: 20px;
     }
     .ConteudoEquacao2{
         width: 48%;
-        margin-left: auto;
-        margin-left: 30px;
+        margin-left: 1.7%;
         height: 285px;
+        margin-top: 20px;
     }
     #QuadradoImg {
         width: 410px;
@@ -1091,12 +1092,14 @@ main {
     #BotaoDeJogar{
         height: 130px;
     }
+    header.menu-principal {
+        margin-top: -20px;
+    }
     .HeaderDoConteudo{
         height: 90px;
     }
 }
 /** My PC */
-
 @media (min-width: 1920px) {
     main {
         width:1100px;  

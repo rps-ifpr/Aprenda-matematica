@@ -263,7 +263,7 @@ SE COLOCARMOS FICARÁ O MENU DE ESCOLHAS RETO
         margin-bottom: 0px;
     }
     #Develpoed{
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         display:flow-root;
         margin-top: 85px;
         margin-left: auto;
@@ -284,7 +284,7 @@ SE COLOCARMOS FICARÁ O MENU DE ESCOLHAS RETO
         margin-top: 30px;
     }
 }
-@media screen and (min-width: 360px) {
+@media screen and (min-width: 375px) {
     main {
         width:280px;  
     }
@@ -523,7 +523,7 @@ SE COLOCARMOS FICARÁ O MENU DE ESCOLHAS RETO
     }
     #IFPR{ 
         margin-right:30px;
-        margin-top:-85px;
+        margin-top:-95px;
     }
     .areaslider{
         visibility:visible;
@@ -600,7 +600,6 @@ SE COLOCARMOS FICARÁ O MENU DE ESCOLHAS RETO
         height: 90px;
     }
 }
-
 /** MEDIUM DEVICES – TABLETS & DESKTOPS */
 @media screen and (min-width: 960px) {
     main {
@@ -654,12 +653,12 @@ SE COLOCARMOS FICARÁ O MENU DE ESCOLHAS RETO
     .slider img{
         height: auto;
     }    
+    a.GeometriaTitle{
+        margin-top: 30px;
+    }
     div.EscolheGeometria{
         display:none;
      } 
-     .elementos{
-         margin-left: -3000px;
-     }
      .span{
         display:none;
     }

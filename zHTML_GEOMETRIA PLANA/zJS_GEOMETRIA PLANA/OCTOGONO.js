@@ -1,3 +1,10 @@
+document.addEventListener("keydown", function (e) {
+    if (e.keyCode === 13) {
+        e.preventDefault();
+        const btn = document.querySelector("#botaoCalcular");
+        btn.click();
+    }
+});
 function Calcula() {
     var lado = document.getElementById('NumLado').value.replace(',', '.');
     var a = document.getElementById('Apotema').value.replace(',', '.');
@@ -26,7 +33,6 @@ function Calcula() {
     else {
         document.getElementById('ResultArea').innerHTML = ("Não existe/não foi inserido!");
     }
-
     if (lado >= 1) {
         document.getElementById('ResultPerimetro').innerHTML = ("L + L + L + L + L + L + L + L =   " + Soma().replace('.', ',') + " m ");
     }

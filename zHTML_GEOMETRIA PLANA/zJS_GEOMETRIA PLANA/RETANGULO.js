@@ -1,3 +1,10 @@
+document.addEventListener("keydown", function (e) {
+    if (e.keyCode === 13) {
+        e.preventDefault();
+        const btn = document.querySelector("#botaoCalcular");
+        btn.click();
+    }
+});
 function Calcula() {
     var base = document.getElementById('NumBase').value.replace(',', '.');
     var altura = document.getElementById('NumAltura').value.replace(',', '.');

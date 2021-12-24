@@ -1,3 +1,10 @@
+document.addEventListener("keydown", function (e) {
+    if (e.keyCode === 13) {
+        e.preventDefault();
+        const btn = document.querySelector("#botaoCalcular");
+        btn.click();
+    }
+});
 function Calcula() {
     var r = document.getElementById('Numr').value;
     var pi = 3.14;

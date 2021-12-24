@@ -6,7 +6,12 @@ body {
     width: 100%;
     height: 100%;
 }
+header{
+	display: block;
+}
 .backgroundtotal{
+    width: auto;
+    height: auto;
     background-color: rgba(0, 0, 0, 0.856);
 }
 /** Aqui está o fundo ^^   */
@@ -18,7 +23,7 @@ body {
     height: 143px;
     border-bottom:5px solid rgba(0, 0, 0, 0.575);
     margin-bottom: -16px;
-    }
+}
 main {
     margin: 0 auto;
     width: 1100px;
@@ -41,7 +46,6 @@ main {
 }
 /** Finalzia Menu Principal */
 /** ______________________________ */
-
 /** Redes sociais à BAIXO */
 .redes_sociais ul li{
     padding-top: 5px;
@@ -60,9 +64,10 @@ main {
 /** ______________________________ */
 /** Conteúdo */
 .HeaderDoConteudo{
+    display: grid;
     height: 65px;
     width: 100%;
-    margin:auto ;
+    margin:auto;
     margin-top: 22px;
     background-color: rgba(105, 105, 105, 0.856);
     float:left;
@@ -78,7 +83,6 @@ main {
     width: 100%;
     margin-left: auto;
     margin-top:19px;
-    
 }
 /**Finaliza Conteúdo*/
 /** ______________________________ */
@@ -86,7 +90,7 @@ main {
 #total{
     background-color:#696969da;
     width: 100%;
-    height: 100%;
+    padding-bottom: 10px;
     margin-top: 105px;
     margin-bottom: 10px;
     border-radius: 10px;
@@ -107,11 +111,9 @@ main {
 
 }
 #Calculo{
-    width: 1050px;
-    height: 415px;
+    height: 100%;
     background-color:lightslategrey;
     border: 5px solid black;
-    margin-top: 60px;
     margin-left: 5px;
 }
 #Equacao{
@@ -124,14 +126,12 @@ main {
     margin:20px;
 }
 #JS{
-    display:inline-flex;
+    display:grid;
     width: 630px;
-    height:300px;
     border-radius: 10px;
     border: 5px solid black;
     margin-left: 370px;
     margin-top: -305px;
-
 }
 .TitleTXT{
     color:white;
@@ -147,15 +147,14 @@ main {
 #AoRedorHeader{
     display:inline-flex;
     width: 100%;
-    padding: 20px;
+    height: 100%;
 }
 /* começou */
 form#a1{
     background-color: powderblue;
-    width: 40%;
     padding: 10px;
     position: inline-flex;
-    border-right: black 5px solid;
+    border-bottom: black 5px solid;
 }
 #pergunta{
     color:red;
@@ -180,8 +179,8 @@ form#a1{
     border-radius: 5px;
     background-color: black;
     position: absolute;
-    margin-left:-10px;
-    margin-top: 123px;
+    margin-left:auto;
+    margin-right: auto;
 }
 #botaoCalcular{
     width: 100%;
@@ -195,7 +194,7 @@ form#a1{
 }
 #resultado{
     width: 60%;
-    height: 93%;
+    height: 100%;
     color:red;
     text-shadow: black 2px 2px;
     font-weight: bold;
@@ -208,42 +207,19 @@ form#a1{
     padding: 10px;
 }
 #a2 p{
-    position: absolute;
+    display:block;
     margin: auto;
 }
-#resultadofinalarea{
-    width: 95%;
-    height: 90px;
-    border-radius: 15px;
-    background-color:whitesmoke;
-    border: 5px solid black;
-    display:flex;
-    margin:auto;
-    margin-bottom: 10px;
-    margin-top: 10px; 
-}
-#resultadofinalperimetro{
-    width: 100%;
-    height: 90px;
-    border-radius: 15px;
-    background-color:whitesmoke;
-    border: 5px solid black;
-    display:flex;
-    margin-bottom: 10px;
-    margin-top: 10px; 
-}
-
 #ArrumaEquacao{
-    display:aboslute;
     margin-left:100px;
-    }
+}
 #ResultArea{  
     background-color: black;
     color:white;
     text-align: center;
-    width: 266px;
-    padding: 29px;
-    border: 5px solid grey;
+    width: auto;
+    height: 35px;
+    border: 2px solid grey;
     border-radius: 10px;
     text-transform: none;
 }
@@ -251,9 +227,9 @@ form#a1{
     background-color: black;
     color:white;
     text-align: center;
-    width: 266px;
-    padding: 29px;
-    border: 5px solid grey;
+    width: auto;
+    height: 35px;
+    border: 2px solid grey;
     border-radius: 10px;
     text-transform: none;
 }
@@ -338,7 +314,6 @@ form#a1{
         height: 105px;
     }
     .HeaderDeBaixo{
-        margin-top: auto;
         height: 105px;
     }
     #IFPR{
@@ -368,33 +343,27 @@ form#a1{
         margin-left: auto;
         margin-right: auto;
     }
+    #imgfigura img{
+        height: auto;
+    }
+    #ParteJS{
+        width: 100%;
+        height: 100%;
+    } 
     #Calculo{
         width: 190px;
-        height: 370px;
         padding-bottom: 10px;
-        margin-top: 10px;
-        
-    }
-    #resultado{
-        width: 60%;
-        height: 93%;
-        margin-top: 0px;
-        margin-left: 0px;
-    }
+        margin-top:10px;
+        height: 525px;
+    }  
     #JS{
-        display:inline-flex;
+        display:grid;
         width:170px;
-        height:167px;
+        height:auto;
         border-radius: 0px;
         border: 5px solid black;
         margin-left: -5px;
         margin-top: 20px;
-    }
-    #ArrumaEquacao img{
-        width:100px;
-        height: auto;
-        margin-left: -90px;
-        margin-right: 0px;
     }
     #Equacao img{
         width: 170px;
@@ -419,12 +388,14 @@ form#a1{
         border: 2px solid black;
         border-radius: 5px;
         background-color: black;
-        position: absolute;
-        margin-top: 75px;
-        margin-right: 0px
+        position: relative;
+        margin-top: 10px;
     }
     form#a1{
-        width: 59px;
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+        max-height: 220px;
     }
     #Sobre{
         margin-left:auto;
@@ -432,27 +403,30 @@ form#a1{
     } 
     .HeaderDoConteudo{
         height: 40px;
+        max-width:210px;
     }
     #AoRedorHeader{
         padding: 0px;
         margin-top: 20px;
     }
     #total{
+        position: relative;
         margin-top: 85px;
         background-color:#696969da;
         width: 100%;
-        height: 575px;
         margin-bottom: 10px;
         border-radius: 10px;
+        padding-bottom: 10px;
     }
     #pergunta{
         text-align: center;
-        max-width: 60px;
+        max-width: 220px;
         text-shadow:none;
     }
     #resultado{
         width: 100%;
         height: auto;
+        max-height: 220px;
         color:red;
         text-shadow:none;
         font-weight: bold;
@@ -463,57 +437,32 @@ form#a1{
         font-size: 1.25em;
         text-align: justify;
         padding: 0px;
-        text-indent: 0px;
+        padding-bottom: 5px;
+        padding-top:5px;
     }
     #a2 p{
-        max-width: 75px;
+        max-width: 130px;
     }
     #NumLado{
-        width: 69px;
-        height: auto;  
-        margin-left:-9px;
-    }
-    #resultadofinalarea{
-        display:grid;
-        width: auto;
-        height: 35px;
-        border-radius: 0px;
-        border: 2px solid black;
-        margin-left:3px;
-        margin-right:3px;
-        margin-bottom: 10px;
-        margin-top: 10px; 
-    }
-    #resultadofinalperimetro{
-        display: grid;
-        width: auto;
-        height: 35px;
-        border-radius: 0px;
-        border: 2px solid black;
-        margin-left:3px;
-        margin-right: 3px;
-        margin-bottom: 10px;
-        margin-top: 10px; 
+        width: 70px;
+        height: auto;   
+        display: flex;
+        margin:auto
     }
     #botaoCalcular{
         text-align: center;
         width: 75px;
     }
-    #ResultArea{  
-        height: 33.5px;
-        padding: 0px;
-        border: 1px solid grey;
-        border-radius: 0px;
-        text-transform: none;
+    #ArrumaEquacao {
+        margin-left: 0px;
+        margin-right: 0px;
     }
-    #ResultPerimetro{
-        height: 33px;
-        padding:0px;
-        border: 1px solid grey;
-        border-radius: 0px;
-    }
+    #ArrumaEquacao img{
+        width:100px;
+        height: auto;
+    } 
 }
-@media screen and (min-width: 360px) {
+@media screen and (min-width:375px) {
     main {
         width:280px;  
     }
@@ -552,18 +501,6 @@ form#a1{
         width: 230px;
         margin-left: 17px;
     }
-    #Calculo{
-        width: 260px;      
-        height: 435px;
-    }
-    #JS{
-        width:240px;
-        height:172px;
-        margin-left: -5px;  
-    }
-    #ArrumaEquacao img{
-        width:120px;
-    }
     #Equacao img{
         width: 240px;
     }
@@ -572,43 +509,46 @@ form#a1{
         height:200px;
     }
     form#a1{
-        width: 95px;
+        max-width: 220px;
     }
     #AoRedorHeader{
         margin-top: 20px;
     }
-    #total{
-        height: 700px;
+    #botaoCalcular{
+        width: 110px;
     }
     #pergunta{
-        text-indent: -10px;
+        max-width: 240px;
     }
-    #resultado{
-        text-indent: 0px;
+    .HeaderDoConteudo{
+        height: 40px;
+        max-width:280px;
+    }
+    #a2 p{
+        max-width: 220px;
+    }
+    #Calculo{
+        width: 260px;      
+        height: 550px;
+    }
+    #JS{
+        width:240px;
     }
     #NumLado{
         font-size: 1.5em;
         width: 105px;
     }
-    #botaoCalcular{
-        width: 110px;
-    }
     #calcular{
         width: 109px;
-        margin-top: 70px;
-        margin-left: -9px;
+        margin-top: 10px;
     }
-    #pergunta{
-        max-width: 110px;
+    #ArrumaEquacao img{
+        width:120px;
     }
-    #a2 p{
-        max-width: 109px;
-    }
-    #ResultPerimetro{
-        height: 33.5px;
+    img{
+        width: 120px;
     }
 }
-
 /** SMALL DEVICES – SMARTPHONES */
 @media (min-width: 480px) {
     main {
@@ -635,60 +575,23 @@ form#a1{
         width: 320px;
         margin-left: 27px;
     }
-    #Calculo{
-        width: 360px;      
-        height: 505px;
-        margin-left: 10px;
-    }
-    #JS{
-        width:330px;
-        height:230px;
-        margin-left: -5px;  
-    }
-    #ArrumaEquacao img{
-        width:130px;
-    }
     #Equacao{
         width: 330px;
         height:200px;
     }
     form#a1{
-        width: 115px;
-    }
-    #total{
-        margin-top: 120px;
-        height: 845px;
+        max-width: 310px;
+        max-height: 250px;
     }
     #pergunta{
-        max-width: 140px;
-    }
-    #pergunta{
-        text-indent: -18px;
-    }
-    #resultado{
-        text-indent: 4px;
-    }
-    #NumLado{
-        width: 125px;
-        height: 20px;
+        max-width: 310px;
     }
     #botaoCalcular{
         width: 130px;
     }
-    #calcular{
-        width: 129px;
-        margin-top: 135px;
-        margin-left: -9px;
-    }
     #a2 p{
-        max-width: 180px;
+        max-width: 250px;
         margin-top: 0px;
-    }
-    #resultadofinalarea{
-        height: 55px;
-    }
-    #resultadofinalperimetro{
-        height: 55px;
     }
     #ResultPerimetro{
         height: 53px;
@@ -698,10 +601,37 @@ form#a1{
     }
     .HeaderDoConteudo{
         height: 70px;
+        max-width: 390px;
         margin-top: 10px;
     }
     .HeaderDoConteudo a{
         margin-top: 30px;
+    }
+    #total{
+        margin-top: 120px;
+    }
+    #Calculo{
+        width: 360px;      
+        height: 620px;
+        margin-left: 10px;
+    }
+    #JS{
+        width:330px;
+        margin-left: -5px;  
+    }
+    #NumLado{
+        width: 125px;
+        height: 20px;
+    }
+    #calcular{
+        width: 129px;
+        margin-top: 10px;
+    }
+    #ArrumaEquacao img{
+        width:130px;
+    }
+    img{
+        width: 130px;
     }
 }
 /** SMALL DEVICES – TABLETS */
@@ -742,6 +672,7 @@ form#a1{
     .HeaderDoConteudo{
         margin-top: 20px;
         height: 90px;
+        max-width: 590px;
     }
     .HeaderDoConteudo a{
         margin-top:40px;
@@ -750,80 +681,73 @@ form#a1{
         width: 520px;
         margin-left:27px;
     }
-    #Calculo{
-        width: 560px;      
-        height: 615px;
-        margin-left: 10px;
-    }
-    #JS{
-        width:530px;
-        height:320px;
-        margin-left: -150px;  
-        margin-top: 30px;
-    }
-    #ArrumaEquacao img{
-        width:150px;
-    }
     #Equacao{
         width: 240px;
         height:220px;
     }
     form#a1{
-        width: 250px;
-    }
-    #total{
-        margin-top: 130px;
-        height: 1115px;
+        max-width: 510px;
+        max-height: 160px;
     }
     #pergunta{
-        font-size:2em;;
-        text-indent: -10px;
+        max-width: 510px;
+        font-size:2em;
     }
     #resultado{
+        width: 100%;
+        max-height: 400px;
         font-size: 1.6em;
-        text-indent: 20px;
-    }
-    #NumLado{
-        width: 155px;
-        height: 40px;
-        margin-left: 0px;
     }
     #botaoCalcular{
         width: 100%;
         height: 100%;
     }
-    #calcular{
-        width: 177px;
-        height: 50px;
-        margin-top: 125px;
-        margin-left: -9px;
-    }
     #a2 p{
         max-width: 342px;
-        margin-top: 10px;
-    }
-    #resultadofinalarea{
-        height: 55px;
-        margin-top: 20px;
-    }
-    #resultadofinalperimetro{
-        height: 55px;
-        margin-top: 20px;
-
+        margin-top: 0px;
     }
     #ResultPerimetro{
         width: 330px;
-        height: 53px;
+        height: 103px;
     }
     #ResultArea{
         width: 330px;
-        height: 53px;
+        height: 103px;
     }
     p#ResultPerimetro{
         margin-top: 0px;
     }
     p#ResultArea{
         margin-top: 0px;
+    }
+    #total{
+        margin-top: 130px;
+    }
+    #Calculo{
+        width: 560px;      
+        height: 885px;
+        margin-left: 10px;
+    }
+    #JS{
+        width:530px;
+        height: 540px;
+        margin-left: -150px;  
+        margin-top: 30px;
+    }
+    #NumLado{
+        width: 155px;
+        height: 40px;
+    }
+    #calcular{
+        width: 177px;
+        height: 50px;
+        margin-top: 5px;
+    }
+    #ArrumaEquacao img{
+        width:150px;
+    }
+    img{
+        width: 150px;
     }
 }
 /** MEDIUM DEVICES – TABLETS & DESKTOPS */
@@ -850,6 +774,7 @@ form#a1{
     .HeaderDoConteudo{
         margin-top: 20px;
         height: 90px;
+        max-width: 799px;
     }
     .HeaderDoConteudo a{
         margin-top:40px;
@@ -858,28 +783,34 @@ form#a1{
         width: 520px;
         margin-left:107px;
     }
-    #Calculo{
-        width: 720px;
-        height: 670px;    
-    }
-    #JS{
-        width:690px;
-        height:375px;
-        margin-left: -230px;  
-    }
     form#a1{
-        width: 400px;
-    }
-    #total{
-        height: 1175px;
+        max-width: 670px;
     }
     #pergunta{
-        max-width: 300px;
-        text-indent: 0px;
+        max-width: 670px;
     }
     #resultado{
         font-size: 1.8em;
-        text-indent: auto;
+    }
+    #a2 p{
+        max-width: 512px;
+    }
+    #ResultPerimetro{
+        width: 600px;
+        height: 103px;
+    }
+    #ResultArea{
+        width: 600px;
+        height: 103px;
+    }
+    #Calculo{
+        height: 910px;
+        width: 720px;      
+    }
+    #JS{
+        width:690px;
+        height: 550px;
+        margin-left: -230px;  
     }
     #NumLado{
         font-size: 1.5em;
@@ -888,25 +819,16 @@ form#a1{
     #calcular{
         width: 267px;
         height: 50px;
-        margin-top:75px;
-        margin-left: -9px;
+        margin-top:10px;
     }
-    #a2 p{
-        max-width: 412px;
+    #ArrumaEquacao img{
+        width:190px;
     }
-    #resultadofinalarea{
-        height: 75px;
+    #ArrumaEquacao{
+        margin-left:31vh;
     }
-    #resultadofinalperimetro{
-        height: 75px;
-    }
-    #ResultPerimetro{
-        width: 400px;
-        height: 73px;
-    }
-    #ResultArea{
-        width: 400px;
-        height: 73px;
+    img{
+        width: 150px;
     }
 }
 /** LARGE DEVICES- WIDE SCREENS */
@@ -931,6 +853,7 @@ form#a1{
     }
     .HeaderDoConteudo{
         height: 90px;
+        max-width: 950px;
     }
     .HeaderDoConteudo a{
         margin-top:40px;
@@ -941,52 +864,48 @@ form#a1{
     #imgfigura{
         margin-left:157px;
     }
-    #Calculo{
-        width: 820px;      
-        height: 685px;
-    }
-    #JS{
-        width:790px;
-        margin-left:-5px;  
-        height: 395px
-    }
     form#a1{
-        width: 400px;
-    }
-    #total{
-        height: 1185px;
+        max-width: 770px;
     }
     #pergunta{
-        max-width: 500px;
+        max-width: 850px;
     }
     #resultado{
         font-size: 2em;
     }
+    #a2 p{
+        max-width:700px;
+    }
+    #ResultPerimetro{
+        width: 680px;
+        height: 94px;
+    }
+    #ResultArea{
+        width: 680px;
+        height: 94px;
+    }
+    #Calculo{
+        width: 820px;      
+        height: 880px;
+    }
+    #JS{
+        width:790px;
+        height: 525px;
+        margin-left:-5px;  
+    }
     #NumLado{
         font-size: 2em;
         width: 265px;
-        margin-right: -0;
     }
     #calcular{
-        margin-top: 105px;
+        margin-top: 10px;
         width: 287px;
     }
-    #a2 p{
-        max-width: 500px;
+    #ArrumaEquacao{
+        margin-left:10px;
     }
-    #resultadofinalarea{
-        height: 85px;
-    }
-    #resultadofinalperimetro{
-        height: 85px;
-    }
-    #ResultPerimetro{
-        width: 480px;
-        height: 84px;
-    }
-    #ResultArea{
-        width: 480px;
-        height: 84px;
+    img{
+        width: 150px;
     }
 }
 /** My PC */
@@ -1011,6 +930,7 @@ form#a1{
     }
     .HeaderDoConteudo{
         height: 120px;
+        max-width: 1100px;
     }
     .HeaderDoConteudo a {
         margin-top: 40px;
@@ -1018,52 +938,50 @@ form#a1{
     #imgfigura{
         margin-left:282px;
     }
-    #Calculo{
-        width: 1070px;     
-        height: 710px; 
-    }
-    #total{
-        margin-top: 170px;
-        height: 1215px;
-    }
-    #JS{
-        width:1040px;
-        margin-left:-395px;  
-        height: 415px;
-    }
     form#a1{
-        width: 400px;
+        max-width: 1020px;
     }
     #pergunta{
-        max-width: 500px;
-    }
-    #NumLado{
-        width: 265px;
-        margin-right: -0;
-    }
-    #calcular{
-        width: 295px;
-        margin-top: 240px;
+        max-width: 1100px;
     }
     #a2 p{
         max-width: 723px;
     }
-    #resultadofinalarea{
-        height: 85px;
-    }
-    #resultadofinalperimetro{
-        height: 85px;
-    }
     #ResultPerimetro{
         width: 730px;
-        height: 84px;
+        height: 104px;
     }
     #ResultArea{
         width: 730px;
-        height: 84px;
+        height: 104px;
     }
     #Equacao{
         width: 260px;
         margin-left: auto;
+    }
+    #Calculo{
+        width: 1070px;     
+        height: 940px; 
+    }
+    #total{
+        margin-top: 170px;
+    }
+    #JS{
+        width:1040px;
+        margin-left:-395px;  
+        height: 570px;
+    }
+    #NumLado{
+        width: 265px;
+    }
+    #calcular{
+        width: 295px;
+        margin-top: 10px;
+    }
+    #ArrumaEquacao img{
+        width:220px;
+    }
+    #ArrumaEquacao{
+        margin-left:425px;
     }
 }

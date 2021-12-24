@@ -390,7 +390,7 @@ main {
         height: 1250px;
     }
 }
-@media screen and (min-width: 360px) {
+@media screen and (min-width:375px) {
     main {
         width:280px;  
     }
@@ -416,8 +416,13 @@ main {
     .redes_sociais ul li{
         margin-top: -45px;
     }
+    header#FundoSobre{
+        margin-left: -10px;
+        height: 1400px;
+        display: block;
+    }
     .HeaderDeBaixo{
-        margin-top: 1495px;
+        margin-top:1480px;
         height: 105px;
     }
     .menu-principal {
@@ -435,9 +440,8 @@ main {
         margin-top:100px;
         margin-right:70px;
     }
-    header#FundoSobre{
-        margin-left: -10px;
-        height: 1420px;
+    header#DeixarBonito{
+        height: 1400px;
     }
 }
 /** SMALL DEVICES – SMARTPHONES */
@@ -485,9 +489,11 @@ main {
     header#FundoSobre{
         height: 1700px;
     }
+    header#DeixarBonito{
+        height:100%;
+    }
 }
 /** SMALL DEVICES – TABLETS */
-
 @media (min-width: 768px) {
     main {
         width:590px;  
@@ -496,7 +502,7 @@ main {
         font-size: 0.7em;
     } 
     .HeaderDeBaixo{
-        margin-top: 1575px;
+        margin-top: 1530px;
         height: 140px;
     }
     .menu-principal {
@@ -536,11 +542,11 @@ main {
         margin-top:-280px;
         margin-right: 10px;
     }
-    #DeixarBonito{
-        height: 1400px;
+    header#DeixarBonito{
+        height:100%;
     }
     header#FundoSobre{
-        height: 1455px;
+        height: 1450px;
     }
     header.menu-principal {
         margin-top: -20px;
@@ -555,7 +561,7 @@ main {
         font-size: 0.7em;
     } 
     .HeaderDeBaixo{
-        margin-top: 1450px;
+        margin-top: 1410px;
         height: 145px;
     }
     .menu-principal {
@@ -574,9 +580,6 @@ main {
     #Rogerio{
         margin-right: 20px;
     }
-    #DeixarBonito{
-        height: 1275px;
-    }
     header#FundoSobre{
         height: 1330px;
     }
@@ -590,7 +593,7 @@ main {
         font-size: 0.6em;
     } 
     .HeaderDeBaixo{
-        margin-top: 1195px;
+        margin-top: 1150px;
     }
     .logo{
         margin-top: -80px;
@@ -611,9 +614,6 @@ main {
         margin-right: 30px;
         margin-top: -227px;
     }
-    #DeixarBonito{
-        height: 1020px;
-    }
     header#FundoSobre{
         height: 1075px;
     }
@@ -621,9 +621,7 @@ main {
         width: 50%;
     }
 }
-
 /** My PC */
-
 @media (min-width: 1920px) {
     main {
         width:1100px;  
@@ -632,7 +630,7 @@ main {
         font-size: 0.7em;
     } 
     .HeaderDeBaixo{
-        margin-top: 1345px;
+        margin-top: 1290px;
     }
     .logo{
         margin-top: -100px;
@@ -657,7 +655,7 @@ main {
         height: 1170px;
     }
     header#FundoSobre{
-        height: 1225px;
+        height: 1195px;
     }
     #SetaDeVoltar{
         width: 50%;

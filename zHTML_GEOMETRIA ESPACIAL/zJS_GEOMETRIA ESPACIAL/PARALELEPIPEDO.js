@@ -1,3 +1,10 @@
+document.addEventListener("keydown", function (e) {
+    if (e.keyCode === 13) {
+        e.preventDefault();
+        const btn = document.querySelector("#botaoCalcular");
+        btn.click();
+    }
+});
 function Calcula() {
     var A = document.getElementById('NumA').value.replace(',', '.');
     var B = document.getElementById('NumB').value.replace(',', '.');
